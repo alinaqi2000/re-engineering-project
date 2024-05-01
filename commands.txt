@@ -1,0 +1,5 @@
+- pip install virtualenv 
+- python -m venv venv OR virtualenv venv
+- venv\Scripts\activate OR source venv/bin/activate
+- pip install Flask
+- flask --debug run

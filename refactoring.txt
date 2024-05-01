@@ -1,0 +1,7 @@
+-Renamed the functions ’get_data’ and ‘set_data’ to ‘load_json_file’ and ‘write_json_file’ respectively to make their purpose clearer.
+
+-Consolidated the error handling for invalid student IDs in ‘get_student_record’, ‘update_student_record’, and ‘delete_student_record’ functions.
+
+-Simplified the loop in ‘generate_unique_key’ function.
+
+-Removed the unnecessary f.close() call in ‘create_test_data_file’ function.
